@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82E71A452213FBA000B67EFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71A442213FBA000B67EFF /* AppDelegate.m */; };
+		82E71A4D2213FBA100B67EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E71A4C2213FBA100B67EFF /* Assets.xcassets */; };
+		82E71A502213FBA100B67EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E71A4E2213FBA100B67EFF /* LaunchScreen.storyboard */; };
+		82E71A532213FBA100B67EFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71A522213FBA100B67EFF /* main.m */; };
+		82E71A5C2213FBF000B67EFF /* PadMainViewContrller.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71A5B2213FBF000B67EFF /* PadMainViewContrller.m */; };
+		82E71A612213FC3B00B67EFF /* PadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71A602213FC3B00B67EFF /* PadDetailViewController.m */; };
+		82E71A652213FC7800B67EFF /* PadSplitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71A642213FC7800B67EFF /* PadSplitHelper.m */; };
+		82E71A6B2213FDA200B67EFF /* PadBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71A6A2213FDA200B67EFF /* PadBaseViewController.m */; };
+		82E71A72221405D000B67EFF /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71A71221405D000B67EFF /* MyTabBarController.m */; };
+		82E71A752214063500B67EFF /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71A742214063500B67EFF /* OneViewController.m */; };
+		82E71A782214063E00B67EFF /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71A772214063E00B67EFF /* TwoViewController.m */; };
+		82E71A7B2214064900B67EFF /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71A7A2214064900B67EFF /* ThreeViewController.m */; };
+		82E71A7D2214099E00B67EFF /* toolbar_home_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E71A7C2214099E00B67EFF /* toolbar_home_highlight@2x.png */; };
+		82E71A812214153300B67EFF /* RightDetailViewcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E71A802214153300B67EFF /* RightDetailViewcController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82E71A402213FBA000B67EFF /* PadSupportComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PadSupportComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E71A432213FBA000B67EFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82E71A442213FBA000B67EFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82E71A4C2213FBA100B67EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82E71A4F2213FBA100B67EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82E71A512213FBA100B67EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E71A522213FBA100B67EFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82E71A5A2213FBF000B67EFF /* PadMainViewContrller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PadMainViewContrller.h; sourceTree = "<group>"; };
+		82E71A5B2213FBF000B67EFF /* PadMainViewContrller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PadMainViewContrller.m; sourceTree = "<group>"; };
+		82E71A5F2213FC3B00B67EFF /* PadDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PadDetailViewController.h; sourceTree = "<group>"; };
+		82E71A602213FC3B00B67EFF /* PadDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PadDetailViewController.m; sourceTree = "<group>"; };
+		82E71A632213FC7800B67EFF /* PadSplitHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PadSplitHelper.h; sourceTree = "<group>"; };
+		82E71A642213FC7800B67EFF /* PadSplitHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PadSplitHelper.m; sourceTree = "<group>"; };
+		82E71A672213FD0B00B67EFF /* PadJumpNextViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PadJumpNextViewControllerDelegate.h; sourceTree = "<group>"; };
+		82E71A692213FDA200B67EFF /* PadBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PadBaseViewController.h; sourceTree = "<group>"; };
+		82E71A6A2213FDA200B67EFF /* PadBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PadBaseViewController.m; sourceTree = "<group>"; };
+		82E71A70221405D000B67EFF /* MyTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		82E71A71221405D000B67EFF /* MyTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		82E71A732214063500B67EFF /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		82E71A742214063500B67EFF /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		82E71A762214063E00B67EFF /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		82E71A772214063E00B67EFF /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		82E71A792214064900B67EFF /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		82E71A7A2214064900B67EFF /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		82E71A7C2214099E00B67EFF /* toolbar_home_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar_home_highlight@2x.png"; sourceTree = "<group>"; };
+		82E71A7F2214153300B67EFF /* RightDetailViewcController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightDetailViewcController.h; sourceTree = "<group>"; };
+		82E71A802214153300B67EFF /* RightDetailViewcController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightDetailViewcController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82E71A3D2213FBA000B67EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82E71A372213FBA000B67EFF = {
+			isa = PBXGroup;
+			children = (
+				82E71A422213FBA000B67EFF /* PadSupportComponent */,
+				82E71A412213FBA000B67EFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82E71A412213FBA000B67EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82E71A402213FBA000B67EFF /* PadSupportComponent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82E71A422213FBA000B67EFF /* PadSupportComponent */ = {
+			isa = PBXGroup;
+			children = (
+				82E71A6C2214056C00B67EFF /* Modules */,
+				82E71A592213FBCA00B67EFF /* SupportComponent */,
+				82E71A432213FBA000B67EFF /* AppDelegate.h */,
+				82E71A442213FBA000B67EFF /* AppDelegate.m */,
+				82E71A4C2213FBA100B67EFF /* Assets.xcassets */,
+				82E71A4E2213FBA100B67EFF /* LaunchScreen.storyboard */,
+				82E71A512213FBA100B67EFF /* Info.plist */,
+				82E71A522213FBA100B67EFF /* main.m */,
+			);
+			path = PadSupportComponent;
+			sourceTree = "<group>";
+		};
+		82E71A592213FBCA00B67EFF /* SupportComponent */ = {
+			isa = PBXGroup;
+			children = (
+				82E71A662213FCD200B67EFF /* PadSupportProtocol */,
+				82E71A682213FD8800B67EFF /* BaseComponent */,
+				82E71A622213FC5900B67EFF /* PadHelper */,
+				82E71A5D2213FC1900B67EFF /* LeftComponet */,
+				82E71A5E2213FC2700B67EFF /* RightComponent */,
+			);
+			path = SupportComponent;
+			sourceTree = "<group>";
+		};
+		82E71A5D2213FC1900B67EFF /* LeftComponet */ = {
+			isa = PBXGroup;
+			children = (
+				82E71A5A2213FBF000B67EFF /* PadMainViewContrller.h */,
+				82E71A5B2213FBF000B67EFF /* PadMainViewContrller.m */,
+			);
+			path = LeftComponet;
+			sourceTree = "<group>";
+		};
+		82E71A5E2213FC2700B67EFF /* RightComponent */ = {
+			isa = PBXGroup;
+			children = (
+				82E71A5F2213FC3B00B67EFF /* PadDetailViewController.h */,
+				82E71A602213FC3B00B67EFF /* PadDetailViewController.m */,
+			);
+			path = RightComponent;
+			sourceTree = "<group>";
+		};
+		82E71A622213FC5900B67EFF /* PadHelper */ = {
+			isa = PBXGroup;
+			children = (
+				82E71A632213FC7800B67EFF /* PadSplitHelper.h */,
+				82E71A642213FC7800B67EFF /* PadSplitHelper.m */,
+			);
+			path = PadHelper;
+			sourceTree = "<group>";
+		};
+		82E71A662213FCD200B67EFF /* PadSupportProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				82E71A672213FD0B00B67EFF /* PadJumpNextViewControllerDelegate.h */,
+			);
+			path = PadSupportProtocol;
+			sourceTree = "<group>";
+		};
+		82E71A682213FD8800B67EFF /* BaseComponent */ = {
+			isa = PBXGroup;
+			children = (
+				82E71A692213FDA200B67EFF /* PadBaseViewController.h */,
+				82E71A6A2213FDA200B67EFF /* PadBaseViewController.m */,
+			);
+			path = BaseComponent;
+			sourceTree = "<group>";
+		};
+		82E71A6C2214056C00B67EFF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				82E71A7C2214099E00B67EFF /* toolbar_home_highlight@2x.png */,
+				82E71A70221405D000B67EFF /* MyTabBarController.h */,
+				82E71A71221405D000B67EFF /* MyTabBarController.m */,
+				82E71A7E2214150A00B67EFF /* 右侧详情展示页 */,
+				82E71A6D2214059C00B67EFF /* 模块1 */,
+				82E71A6E221405A200B67EFF /* 模块2 */,
+				82E71A6F221405A800B67EFF /* 模块3 */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		82E71A6D2214059C00B67EFF /* 模块1 */ = {
+			isa = PBXGroup;
+			children = (
+				82E71A732214063500B67EFF /* OneViewController.h */,
+				82E71A742214063500B67EFF /* OneViewController.m */,
+			);
+			path = "模块1";
+			sourceTree = "<group>";
+		};
+		82E71A6E221405A200B67EFF /* 模块2 */ = {
+			isa = PBXGroup;
+			children = (
+				82E71A762214063E00B67EFF /* TwoViewController.h */,
+				82E71A772214063E00B67EFF /* TwoViewController.m */,
+			);
+			path = "模块2";
+			sourceTree = "<group>";
+		};
+		82E71A6F221405A800B67EFF /* 模块3 */ = {
+			isa = PBXGroup;
+			children = (
+				82E71A792214064900B67EFF /* ThreeViewController.h */,
+				82E71A7A2214064900B67EFF /* ThreeViewController.m */,
+			);
+			path = "模块3";
+			sourceTree = "<group>";
+		};
+		82E71A7E2214150A00B67EFF /* 右侧详情展示页 */ = {
+			isa = PBXGroup;
+			children = (
+				82E71A7F2214153300B67EFF /* RightDetailViewcController.h */,
+				82E71A802214153300B67EFF /* RightDetailViewcController.m */,
+			);
+			path = "右侧详情展示页";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82E71A3F2213FBA000B67EFF /* PadSupportComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E71A562213FBA100B67EFF /* Build configuration list for PBXNativeTarget "PadSupportComponent" */;
+			buildPhases = (
+				82E71A3C2213FBA000B67EFF /* Sources */,
+				82E71A3D2213FBA000B67EFF /* Frameworks */,
+				82E71A3E2213FBA000B67EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PadSupportComponent;
+			productName = PadSupportComponent;
+			productReference = 82E71A402213FBA000B67EFF /* PadSupportComponent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82E71A382213FBA000B67EFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = wannazen;
+				TargetAttributes = {
+					82E71A3F2213FBA000B67EFF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 82E71A3B2213FBA000B67EFF /* Build configuration list for PBXProject "PadSupportComponent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82E71A372213FBA000B67EFF;
+			productRefGroup = 82E71A412213FBA000B67EFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82E71A3F2213FBA000B67EFF /* PadSupportComponent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82E71A3E2213FBA000B67EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E71A502213FBA100B67EFF /* LaunchScreen.storyboard in Resources */,
+				82E71A4D2213FBA100B67EFF /* Assets.xcassets in Resources */,
+				82E71A7D2214099E00B67EFF /* toolbar_home_highlight@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82E71A3C2213FBA000B67EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E71A532213FBA100B67EFF /* main.m in Sources */,
+				82E71A6B2213FDA200B67EFF /* PadBaseViewController.m in Sources */,
+				82E71A5C2213FBF000B67EFF /* PadMainViewContrller.m in Sources */,
+				82E71A812214153300B67EFF /* RightDetailViewcController.m in Sources */,
+				82E71A652213FC7800B67EFF /* PadSplitHelper.m in Sources */,
+				82E71A452213FBA000B67EFF /* AppDelegate.m in Sources */,
+				82E71A72221405D000B67EFF /* MyTabBarController.m in Sources */,
+				82E71A782214063E00B67EFF /* TwoViewController.m in Sources */,
+				82E71A612213FC3B00B67EFF /* PadDetailViewController.m in Sources */,
+				82E71A752214063500B67EFF /* OneViewController.m in Sources */,
+				82E71A7B2214064900B67EFF /* ThreeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82E71A4E2213FBA100B67EFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82E71A4F2213FBA100B67EFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82E71A542213FBA100B67EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82E71A552213FBA100B67EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82E71A572213FBA100B67EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PadSupportComponent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wang.zengzhan.testobjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		82E71A582213FBA100B67EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PadSupportComponent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wang.zengzhan.testobjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82E71A3B2213FBA000B67EFF /* Build configuration list for PBXProject "PadSupportComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E71A542213FBA100B67EFF /* Debug */,
+				82E71A552213FBA100B67EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E71A562213FBA100B67EFF /* Build configuration list for PBXNativeTarget "PadSupportComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E71A572213FBA100B67EFF /* Debug */,
+				82E71A582213FBA100B67EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82E71A382213FBA000B67EFF /* Project object */;
+}
